@@ -1,0 +1,202 @@
+
+<!DOCTYPE HTML>
+
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Fast Parking </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script></script>
+        <link rel="shortcut icon" href="fastparkinglogo.ico">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    </head>
+    
+<body>
+    
+    
+    
+<!--   Header Start - Inicio do cabeçalho-->
+    
+    <div id="mainContainer">
+        
+        <div id="boxContent">
+            
+            <div id="fisrtContent">
+                
+                <div id="imgLogoContent">
+                    <img src="img/fastparkingLogoRemoved.png" title="FAST PARKING" alt="FAST PARKING">
+                </div>
+
+                <div id="mainTitle">
+                    <h1 id="eidtMainTitle">CHECK-IN</h1>
+                </div>
+                
+            </div>
+            
+            <div id=secondContent>
+                
+                <div id="contentMenu">
+                    
+                    <div id="mainMenu">
+                        
+                        <div class="editDivMenu">
+                            <a href="index.html"> <h1 class="editTextMenu">ENTRADA</h1> </a> 
+                        </div>
+                        
+                        <div class="editDivMenu">
+                            <a href="checkout/index.html"><h1 class="editTextMenu">SAIDA</h1></a>
+                        </div>
+                        
+                        <div class="editDivMenu">
+                           <a href="reports/index.html"> <h1 class="editTextMenu">RELATÓRIOS</h1> </a> 
+                        </div>
+                        
+                        <div class="editDivMenu">
+                           <a href="price/index.html"> <h1 class="editTextMenu">PREÇOS</h1></a> 
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+<!-- FIM DO MENU -->
+                
+                <div id="mainContent">
+                    
+                    <div id="inputControl">
+                            
+                            <div class="supMainTable">
+
+                                <table id="mainTable1">
+
+                                    <tr class="editMainTr">
+                                        <td class="editMainTd" > 
+                                            Nome do Cliente :
+                                        </td>
+                                    </tr>
+
+                                    <tr class="editMainTr">
+                                        <td class="editMainTd"
+                                            > 
+                                            Modelo Do Veiculo
+                                        </td>
+                                    </tr>
+
+                                    <tr class="editMainTr">
+                                        <td class="editMainTd"
+                                            > 
+                                            Placa do Veiculo
+                                        </td>
+                                    </tr>
+
+                                    <tr class="editMainTr">
+                                        <td class="editMainTd"
+                                            > 
+                                            Cor Do Veiculo
+                                        </td>
+                                    </tr>
+ 
+                                </table>
+
+                            </div>
+
+                            <div class="supMainTable">
+                                <table id="mainTable2">
+
+                                    <tr class="editMainTr2">
+                                        <td class="editMainTd"> 
+                                            <input class="editMainInput" id="nomeCliente">
+                                        </td>
+                                    </tr>
+
+                                    <tr class="editMainTr2">
+                                        <td class="editMainTd"> 
+                                            <input class="editMainInput" id="modelo">
+                                        </td>
+                                    </tr>
+
+                                    <tr class="editMainTr2">
+                                        <td class="editMainTd"> 
+                                            <input class="editMainInput" id="placa">
+                                        </td>
+                                    </tr>
+
+                                    <tr class="editMainTr2">
+                                        <td class="editMainTd"> 
+                                            <input class="editMainInput" id="cor">
+                                        </td>
+                                    </tr>
+
+ 
+                                </table>
+
+                                <form id="editMainForm">
+                                    <button id=editMainButton onclick="alertFunction()">
+                                        INSERIR DADOS
+                                    </button>
+                                </form>
+                                <div id="supTable">
+                                <table class="table" id="table">
+                                    <thead class="table table-bordered">
+                                      <tr>
+                                        <th>Nome</th>
+                                        <th>Placa</th>
+                                        <th>Modelo</th>
+                                        <th class="colorWhite">Comprovante</th>
+                                        <th>estado atual</th>
+                                      </tr>
+                                    </thead>
+                                    
+                                    
+                                  </table>
+                                </div>
+                            </div>
+
+                                
+                          
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+        </div>
+
+    </div>
+    
+    <!-- MODAL -->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">COMPROVANTE</h5>
+                    <button type="button" class="close" data-dismiss="modal"></button>
+                    <span>&times;</span>
+                    
+                </div>
+
+                <div class="modal-body">
+                        <table id="modalTableCheck">
+                                
+                        </table>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onclick="printContent('siteModal')">Imprimir</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="reloadPage()">Fechar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+            
+            <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>    
+
+</html>

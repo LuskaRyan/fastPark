@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mainContainer{
+    width: 100%;
+    height: 937px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-image:url('https://valeti.com/posdigital/assets/images/valeti/bg_home.webp');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#boxContent {
+    width: 1600px;
+    height: 850px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    
+    
+}
+
+.dataModalCheck{
+    height: 50px;
+    width: auto;
+    margin-right: 40px;
+    word-spacing: 30px;
+    font-size:40px;
+    border-bottom: 3px;
+}
+#fisrtContent{
+    width: inherit;
+    height: 200px;
+}
+
+#imgLogoContent{
+    width: 230px;
+    height: 196px;
+    margin-left: 40px;
+    
+}
+#imgLogoContent img{
+    width: inherit;
+    height: inherit;
+    
+}
+
+#secondContent{
+    width: inherit;
+    height: 650px;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+#contentMenu{
+    width: 300px;;
+    height: 600px;
+    float: left;
+    background-color: rgba(0,0,0,0.0);
+    margin-left: 20px;
+    
+    
+}
+
+#mainContent{
+    width: 1250px;
+    height: inherit;
+    background-color: rgba(0,0,0,0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+#inputControl{
+    width: 1150px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.0);
+    margin-top: 80px;
+    margin-left: -170px;
+
+
+}
+
+.editDivMenu{
+    width: 240px;
+    height: 50px;
+    background-color: white; 
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    
+    
+    
+}
+
+.editTextMenu {
+    color: black;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+/*-----------------------------------*/
+.supMainTable{
+    width: 400px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+}
+#mainTable1{
+    width: 320px;;
+    height: 200px;
+    background-color: #c4c4c4;
+    border-spacing: 20px;
+
+    
+}
+.editMainTr{
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    color: black;
+}
+.editMainTd{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.editMainInput{
+    width: 500px;
+    height: 40px;
+}
+
+#mainTable2{
+    width: 400px;
+    height: 200px;
+    background-color: #c4c4c4;
+    border-spacing: 13px;
+    margin-top: -7px;
+    margin-left: -150px;
+    
+}
+
+.editMainTr2{
+    width: inherit;
+    height: inherit;
+    color: black;
+}
+/*------------------------------------*/
+
+#editMainButton{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #105788; 
+    color: white;
+    margin-left: -170px;
+}
+
+#divButtons{
+    width: 100%;
+    height: 14%;
+    background-color: #c4c4c4;
+}
+
+.buttons{
+    width: 23%;
+    height: 65%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 18px;
+    background-color:#105788;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+
+}
+#divTable{
+    width: 100%;
+    height: 73%;
+    
+}
+#divIncome{
+    width: 100%;
+    height: 13%;
+   
+    
+}
+
+#profit{
+    width:  20%;
+    height: 80%;
+    background-color: #105788;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.inputHora{
+    width: 100%;
+    height: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    color:white;
+}
+.inputHora1{
+    width: 100%;
+    height: 40px;
+    color:black;
+}
+
+
+.pricebox{
+    width: 30%;
+    height: 13%;
+    margin: auto;
+
+}
+
+.buttonpricediv{
+    width: 180px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttonprice{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: -10px;
+    
+}
+#buttonprimeiro {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+#mainTitle{
+    width: 600px;
+    height: 120px;
+    background-color: rgba(0,0,0,0.6);
+    float: right;
+    margin-top: -150px;
+    margin-bottom: 10px;
+    margin-right: 400px;
+    border-radius: 10px;
+    margin-right: 445px;
+}
+#eidtMainTitle{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top:10px;
+    padding-top: 12px;
+}
+
+.removeLinkDecoration{
+    text-decoration-style: none;
+}
+

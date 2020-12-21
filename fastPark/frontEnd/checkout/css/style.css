@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mainContainer{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-image:url('https://valeti.com/posdigital/assets/images/valeti/bg_home.webp');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#boxContent {
+    width: 1600px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+#fisrtContent{
+    width: inherit;
+    height: 200px;
+}
+
+#imgLogoContent{
+    width: 230px;
+    height: inherit;
+    margin-left: 40px;
+    
+}
+#imgLogoContent img{
+    width: inherit;
+    height: inherit;
+    
+}
+
+#secondContent{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+#contentMenu{
+    width: 300px;;
+    height: 600px;
+    float: left;
+    background-color: rgba(0,0,0,0.0);
+    margin-left: 20px;
+    
+    
+}
+
+#mainContent{
+    width: 1250px;
+    height: auto;
+    background-color: rgba(0,0,0,0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+#inputControl{
+    width: 1150px;
+    height: auto;
+    background-color: rgba(0,0,0,0.0);
+    margin-top: -250px;
+
+
+}
+
+.editDivMenu{
+    width: 240px;
+    height: 50px;
+    background-color: white; 
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    
+    
+    
+}
+
+.editTextMenu{
+    color:black;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 18px;
+}
+/*-----------------------------------*/
+.supMainTable{
+    width: 1000px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 50px;
+    float: left;
+    background-color: white;
+
+}
+#mainTable1{
+    width: 320px;;
+    height: 200px;
+    background-color: rgba(0,0,0,0.0);
+    border-spacing: 20px;
+
+    
+}
+.editMainTr{
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    color: black;
+}
+.editMainTd{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.editMainInput{
+    width: 500px;
+    height: 40px;
+}
+
+#mainTable2{
+    width: 400px;
+    height: auto;
+    background-color: rgba(0,0,0,0.0);
+    border-spacing: 13px;
+    margin-top: -7px;
+    margin-left: -150px;
+    
+}
+
+.editMainTr2{
+    width: inherit;
+    height: inherit;
+    color: black;
+}
+.mostrarCarro {
+    margin-right: 30px;
+}
+/*------------------------------------*/
+
+#editMainButton{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    margin-left: -220px;
+}
+
+#mainTitle{
+    width: 600px;
+    height: 120px;
+    background-color: rgba(0,0,0,0.6);
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right: 450px;
+    border-radius: 10px;
+}
+#eidtMainTitle{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top:-250px;
+    padding-top: 18px;
+}
+#tableDark{
+    background-color: white;
+    margin-left: 220px;
+}
