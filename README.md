@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-9/17796466_1003045589795761_4343872813058004050_n.png?_nc_cat=111&ccb=2&_nc_sid=85a577&_nc_ohc=19vTqvyLdWsAX--gEHr&_nc_ht=scontent-gru2-2.xx&oh=2e06375a4ab0d049052b7f9c2dc81c7e&oe=6004BB6B" width="250">
+   <img src=https://www.fastparking.it/img/log_fast.png width="250">
 </p>
 
 
